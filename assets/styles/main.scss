@@ -1,0 +1,82 @@
+@import "./base/reset.css";
+@import "./base/variables.scss";
+
+$font_path: '~assets/fonts/';
+@font-face {
+  font-family: 'Museo Sans 300';
+  src: url($font_path + 'MuseoSans_300.otf');
+}
+@font-face {
+  font-family: 'Museo Sans 500';
+  src: url($font_path + 'MuseoSans_500.otf');
+}
+
+html {
+  font-size: 14px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Museo Sans 300', -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: $base;
+  color: $text;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+.-headline {
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 3px;
+  color: $black;
+}
+
+.-subhead {
+  text-align: center;
+  letter-spacing: .1em;
+  color: $text-light;
+}
+
+.-head {
+  margin-bottom: 60px;
+}
+
+.-fade-enter-active, .-fade-leave-active {
+  transition: opacity .5s;
+}
+.-fade-enter, .-fade-leave-to {
+  opacity: 0;
+}
+
+.-btn {
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid $black;
+  background-color: $white;
+  color: $black;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  padding: .8em 1em;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: .1em;
+  transition: .3s;
+  &:hover {
+    color: $white;
+    background-color: $black;
+  }
+}
+
+// scopedだと適用されないためグローバルに
+.Description__link {
+  text-decoration: none;
+  color: $text;
+  border-bottom: 1px solid $text;
+}
