@@ -11,6 +11,7 @@
           <AppSocialLinks />
         </div>
         <div class="Profile__body">
+          <h2 class="Profile__name">三浦 豊和</h2>
           <p>
             1994年生まれ、宮城県出身。
             高校卒業後、プロミュージシャンを目指し音楽学校へ進学。
@@ -43,24 +44,14 @@ export default {
 
 .AppAbout {
   position: relative;
-  // &:before {
-  //   content: '';
-  //   position: absolute;
-  //   top: 0;
-  //   right: 0;
-  //   bottom: 0;
-  //   left: 0;
-  //   width: 100%;
-  //   height: 100%;
-  //   background-color: $white-ter;
-  //   transform: skew(0, -5deg);
-  //   z-index: -1;
-  // }
   .Profile {
     @include desktop {
       display: flex;
       justify-content: center;
     }
+  }
+  .Profile__name {
+    font-weight: bold;
   }
 
   .Profile__icon {
