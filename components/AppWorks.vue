@@ -50,24 +50,21 @@ export default {
         {
           title: '物流プラットフォームの開発',
           description: 
-            `フロントエンドの開発を担当しました。
-            Nuxt + TypeScriptのモダンな構成で、コンポーネントの作成をしました。`,
+            `Nuxt + TypeScriptのモダンな構成で、コンポーネントの作成をしました。`,
           tags: ['Nuxt.js', 'Vue.js', 'React.js', 'TypeScript', 'JavaScript', 'Laravel', 'PHP', 'HTML', 'CSS'],
           year: '2018'
         },
         {
           title: 'ヘルスケアアプリの開発',
           description: 
-            `フロントエンドの開発を担当しました。
-            Vue + SVGで、グリグリと動く動的なUIを作成しました。`,
+            `Vue + SVGで、グリグリと動く動的なUIを作成しました。WebViewを使用したiOSアプリで、カメラの起動などアプリ特有の実装もしました。`,
           tags: ['Vue.js', 'JavaScript', 'CakePHP', 'PHP', 'HTML', 'CSS'],
           year: '2018'
         },
         {
           title: '不動産予約システムの開発',
           description:
-            `フロントエンドの開発を担当しました。
-            APIとの通信を効率的に行うため、非同期通信を並列処理で実装し、パフォーマンスを向上させました。`,
+            `Vueでコンポーネントの作成をしました。Fluxアーキテクチャを意識してStoreを設計しました。`,
           tags: ['Nuxt.js', 'Vue.js', 'JavaScript', 'HTML', 'CSS'],
           year: '2018'
         },
