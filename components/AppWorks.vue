@@ -48,6 +48,14 @@ export default {
       ],
       works: [
         {
+          title: '物流プラットフォームの開発',
+          description: 
+            `フロントエンドの開発を担当しました。
+            Nuxt + TypeScriptのモダンな構成で、コンポーネントの作成をしました。`,
+          tags: ['Nuxt.js', 'Vue.js', 'React.js', 'TypeScript', 'JavaScript', 'Laravel', 'PHP', 'HTML', 'CSS'],
+          year: '2018'
+        },
+        {
           title: 'ヘルスケアアプリの開発',
           description: 
             `フロントエンドの開発を担当しました。
@@ -59,7 +67,6 @@ export default {
           title: '不動産予約システムの開発',
           description:
             `フロントエンドの開発を担当しました。
-            Nuxtを実務で使うのははじめてでしたが、キャッチアップをしながら進めることができました。
             APIとの通信を効率的に行うため、非同期通信を並列処理で実装し、パフォーマンスを向上させました。`,
           tags: ['Nuxt.js', 'Vue.js', 'JavaScript', 'HTML', 'CSS'],
           year: '2018'
