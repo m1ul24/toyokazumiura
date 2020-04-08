@@ -20,8 +20,7 @@
           <div class="Timeline__content">
             <h3 class="Timeline__headline">IT企業に入社</h3>
             <p class="Timeline__body">
-              いくつか内定をいただいた中から、一番幅広い経験ができそうな企業にエンジニアとして入社。
-              この予想が見事的中し、インフラ、ネットワーク、デザイン、開発と幅広く経験する。
+              インフラ、ネットワーク、デザイン、開発と幅広く経験する。
             </p>
           </div>
         </li>
@@ -31,9 +30,9 @@
             <h3 class="Timeline__headline">タイミーにジョイン</h3>
             <p class="Timeline__body">
               <a href="https://taimee.co.jp" target="_blank" class="Description__link">タイミー</a>
-              というスタートアップにジョイン。
-              創業メンバーとして、Webシステムの開発やAPIの開発、インフラなどを担当。
-              肩書きはCIO。
+              にジョイン。
+              創業メンバーとして、企業様用のWebシステムやAPIの開発、インフラなどを担当。
+              後にCIOに就任。
             </p>
           </div>
         </li>
@@ -42,7 +41,16 @@
           <div class="Timeline__content">
             <h3 class="Timeline__headline">独立</h3>
             <p class="Timeline__body">
-              フリーランスとして活動開始。受託開発と個人開発を平行して行う。
+              フリーランスとして活動開始。
+            </p>
+          </div>
+        </li>
+        <li class="Timeline__item">
+          <p class="Timeline__date">2019年4月</p>
+          <div class="Timeline__content">
+            <h3 class="Timeline__headline">株式会社Robesを創業</h3>
+            <p class="Timeline__body">
+              CTOとして開発全般、チームのマネジメントを担当。
             </p>
           </div>
         </li>

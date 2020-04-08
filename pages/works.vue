@@ -1,9 +1,7 @@
 <template>
   <div class="Works">
     <AppWorks />
-    <!--
-    <p class="Works__note"><small>※クライアントのお名前や、案件の詳細は伏せさせていただいております。</small></p>
-    -->
+    <p>※こちらの実績は担当したものの中の一部です</p>
     <div class="Contact__link">
       <nuxt-link class="Contact__button -btn" to="/contact">
         お問い合わせはこちら

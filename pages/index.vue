@@ -8,7 +8,7 @@
     </header>
 
     <div class="Index__body">
-      <AppWorks :year="2018" :limit="4" />
+      <AppWorks :year="2019" :limit="4" />
       <div class="ShowMore">
         <nuxt-link class="ShowMore__button -btn" to="/works">
           Show More

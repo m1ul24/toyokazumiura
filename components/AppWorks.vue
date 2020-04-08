@@ -44,28 +44,33 @@ export default {
   data() {
     return {
       workYears: [
+        '2019',
         '2018'
       ],
       works: [
         {
-          title: '物流プラットフォームの開発',
-          description: 
-            `Nuxt + TypeScriptのモダンな構成で、コンポーネントの作成をしました。`,
-          tags: ['Nuxt.js', 'Vue.js', 'React.js', 'TypeScript', 'JavaScript', 'Laravel', 'PHP', 'HTML', 'CSS'],
-          year: '2018'
-        },
-        {
-          title: 'ヘルスケアアプリの開発',
-          description: 
-            `Vue + SVGで、グリグリと動く動的なUIを作成しました。WebViewを使用したiOSアプリで、カメラの起動などアプリ特有の実装もしました。`,
-          tags: ['Vue.js', 'JavaScript', 'CakePHP', 'PHP', 'HTML', 'CSS'],
-          year: '2018'
-        },
-        {
-          title: '不動産予約システムの開発',
+          title: 'Robes',
+          image: {
+            src: require('~/assets/images/robes.png'),
+            alt: 'Robes',
+          },
           description:
-            `Vueでコンポーネントの作成をしました。Fluxアーキテクチャを意識してStoreを設計しました。`,
-          tags: ['Nuxt.js', 'Vue.js', 'JavaScript', 'HTML', 'CSS'],
+            `<a href="https://robes.co.jp" target="_blank" class="Description__link">Robes</a>
+            は「毎日のコーデがまるごと届いて、そのまま着れる」をコンセプトにしたメンズの月額制ファッションサービスです。
+            開発全般を担当しました。`,
+          tags: ['Nuxt.js', 'Vue.js', 'JavaScript', 'HTML', 'CSS', 'Firebase'],
+          year: '2019'
+        },
+        {
+          title: 'Taimee',
+          image: {
+            src: require('~/assets/images/taimee.png'),
+            alt: 'Taimee',
+          },
+          description:
+            `<a href="https://taimee.co.jp" target="_blank" class="Description__link">タイミー</a>
+            の創業メンバーとして、企業様用のWebシステムやAPIの開発、インフラの構築を担当しました。`,
+          tags: ['Ruby on Rails', 'Ruby', 'JavaScript', 'HTML', 'CSS', 'AWS', 'Heroku'],
           year: '2018'
         },
         {
@@ -74,24 +79,11 @@ export default {
             src: require('~/assets/images/ooogle.png'),
             alt: 'Ooogle'
           },
-          description: 
+          description:
             `奢りたい人と奢られたい人のマッチングプラットフォームを作りました。
             Railsでバックエンドの開発を担当しました。
-            <a href="https://note.mu/kumagai3/n/n146fc83aba58" target="_blank" class="Description__link">こちら</a>
-            の記事に詳細が書いてありますのでご覧ください`,
+            詳細は<a href="https://note.mu/kumagai3/n/n146fc83aba58" target="_blank" class="Description__link">こちら</a>。`,
           tags: ['Ruby on Rails', 'Ruby', 'Nuxt.js', 'Vue.js', 'JavaScript', 'HTML', 'CSS', 'Heroku'],
-          year: '2018'
-        },
-        {
-          title: 'Taimee',
-          image: {
-            src: require('~/assets/images/taimee.png'),
-            alt: 'Taimee',
-          },
-          description: 
-            `<a href="https://taimee.co.jp" target="_blank" class="Description__link">タイミー</a>
-            というスタートアップの創業メンバーとして、WebシステムやAPIの開発、インフラの構築を担当しました。`,
-          tags: ['Ruby on Rails', 'Ruby', 'JavaScript', 'HTML', 'CSS', 'AWS', 'Heroku', 'Linux'],
           year: '2018'
         }
       ]
