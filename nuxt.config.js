@@ -6,6 +6,7 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  mode: 'spa',
   head: {
     title: siteTitle,
     titleTemplate: '%s | ' + siteTitle,
@@ -39,14 +40,21 @@ module.exports = {
   loading: { color: '#3B8070' },
 
   css: [
-    { src: '~assets/styles/main.scss', lang: 'scss' } 
+    { src: '~assets/styles/main.scss', lang: 'scss' }
   ],
 
   modules: [
     ['@nuxtjs/google-analytics', {
       id: 'UA-112510158-3'
     }]
- ],
+  ],
+
+  plugins: [
+    {
+      src: '~/plugins/particles.js',
+      mode: 'client'
+    }
+  ],
 
   /*
   ** Build configuration
