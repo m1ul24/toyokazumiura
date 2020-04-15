@@ -27,7 +27,7 @@
     </header>
 
     <div class="Index__body">
-      <AppWorks :year="2019" :limit="4" />
+      <AppWorks />
       <div class="ShowMore">
         <nuxt-link class="ShowMore__button -btn" to="/works">
           Show More
@@ -89,6 +89,7 @@ export default {
       margin: 15px;
       letter-spacing: .3em;
       color: $black;
+      text-align: center;
     }
   }
 }
