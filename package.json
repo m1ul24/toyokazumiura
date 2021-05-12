@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",
-    "chart.js": "^2.7.2",
+    "chart.js": "^2.9.4",
     "node-sass": "^4.9.4",
     "nuxt": "^2.0.0",
     "sass-loader": "^7.1.0",
